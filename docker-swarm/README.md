@@ -1,7 +1,4 @@
 # devsecops-sandbox
-CI/CDelivery/CDeployment
-
-# devsecops-sandbox
 
 ~~~
 CI/CDelivery/CDeployment
@@ -33,14 +30,14 @@ CI/CDelivery/CDeployment
 | Code Scanner         | Sonarqube  |
 | Static Analysiss       | Coverity  |
 
-| Dynamic application security testing (DAST)
-| ----------: |
-| Burp Suite  |
-| Zed Attack Proxy - OWASP ZAP  |
-| Fiddler  |
+| Dynamic application security testing (DAST)   |            |
+| ---------------------| ----------:|
+| Burp Suite  |  |
+|   Zed Attack Proxy - OWASP ZAP |       |
+|   Fiddler |       |
 
-| misc                |
-| ---------------------|
-| Software composition analysis (SCA)         |
-| Interactive application security testing (IAST)         |  
-| Runtime application self-protection (RASP)         |
+| Dynamic application security testing (DAST)   |            |
+| ---------------------| ----------:|
+| Software composition analysis (SCA)  |  |
+| Interactive application security testing (IAST) |       |
+| Runtime application self-protection (RASP) |       |
