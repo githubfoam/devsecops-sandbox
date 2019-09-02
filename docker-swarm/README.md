@@ -1,8 +1,3 @@
-# devsecops-sandbox
-
-~~~
-CI/CDelivery/CDeployment
-~~~
 
 | Function             | Software   |
 | ---------------------| ----------:|
@@ -11,7 +6,7 @@ CI/CDelivery/CDeployment
 | CI tools             | Jenkins    |
 | Code Scanner         | Sonarqube  |
 | Image registry       | Artifactoy |
-| Helm repository      | Artifactoy |
+|       | Dcoker Compose   |
 | Bug tracking system  |            |
 | Notification         | Slack      |
 
@@ -36,7 +31,7 @@ CI/CDelivery/CDeployment
 |   Zed Attack Proxy - OWASP ZAP |       |
 |   Fiddler |       |
 
-| misc   |            |
+| misc.   |            |
 | ---------------------| ----------:|
 | Software composition analysis (SCA)  |  |
 | Interactive application security testing (IAST) |       |
