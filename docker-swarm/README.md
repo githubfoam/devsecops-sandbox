@@ -5,7 +5,7 @@
 | Code registry        | Gitlab     |
 | CI tools             | Jenkins    |
 | Code Scanner         | Sonarqube  |
-| Image registry       | Artifactoy |
+| Image registry       | Artifactory |
 |    Deployment   | Docker Compose   |
 | Bug tracking system  |            |
 | Notification         | Slack      |
@@ -23,7 +23,7 @@
 | Static application security testing (SAST)                 |        |
 | ---------------------| ----------:|
 | Code Scanner         | Sonarqube  |
-| Static Analysiss       | Coverity  |
+| Static Analysis       | Coverity  |
 
 | Dynamic application security testing (DAST)   |            |
 | ---------------------| ----------:|
