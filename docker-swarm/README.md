@@ -6,7 +6,7 @@
 | CI tools             | Jenkins    |
 | Code Scanner         | Sonarqube  |
 | Image registry       | Artifactoy |
-|       | Dcoker Compose   |
+|    Deployment   | Docker Compose   |
 | Bug tracking system  |            |
 | Notification         | Slack      |
 
