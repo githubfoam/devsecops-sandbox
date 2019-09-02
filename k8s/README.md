@@ -1,5 +1,4 @@
-# devsecops-sandbox
-CI/CDelivery/CDeployment
+
 
 | Function             | Software   |
 | ---------------------| ----------:|
@@ -9,6 +8,7 @@ CI/CDelivery/CDeployment
 | Code Scanner         | Sonarqube  |
 | Image registry       | Artifactoy |
 | Helm repository      | Artifactoy |
+|    Deployment   | Helm/Tiller   |
 | Bug tracking system  |            |
 | Notification         | Slack      |
 
@@ -26,14 +26,14 @@ CI/CDelivery/CDeployment
 | Code Scanner         | Sonarqube  |
 | Static Analysiss       | Coverity  |
 
-| Dynamic application security testing (DAST)
-| ----------: |
-| Burp Suite  |
-| Zed Attack Proxy - OWASP ZAP  |
-| Fiddler  |
+| Dynamic application security testing (DAST)   |            |
+| ---------------------| ----------:|
+| Burp Suite  |  |
+|   Zed Attack Proxy - OWASP ZAP |       |
+|   Fiddler |       |
 
-| misc                |
-| ---------------------|
-| Software composition analysis (SCA)         |
-| Interactive application security testing (IAST)         |  
-| Runtime application self-protection (RASP)         |
+| misc.   |            |
+| ---------------------| ----------:|
+| Software composition analysis (SCA)  |  |
+| Interactive application security testing (IAST) |       |
+| Runtime application self-protection (RASP) |       |
