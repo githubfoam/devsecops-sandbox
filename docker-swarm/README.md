@@ -25,7 +25,7 @@ CI/CDelivery/CDeployment
 |   service discovery  |      |
 |   secret management  |      |
 
-| Static application security testing (SAST)                 | Tool       |
+| Static application security testing (SAST)                 |        |
 | ---------------------| ----------:|
 | Code Scanner         | Sonarqube  |
 | Static Analysiss       | Coverity  |
@@ -36,7 +36,7 @@ CI/CDelivery/CDeployment
 |   Zed Attack Proxy - OWASP ZAP |       |
 |   Fiddler |       |
 
-| Dynamic application security testing (DAST)   |            |
+| misc   |            |
 | ---------------------| ----------:|
 | Software composition analysis (SCA)  |  |
 | Interactive application security testing (IAST) |       |
