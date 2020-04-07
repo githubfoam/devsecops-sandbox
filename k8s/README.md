@@ -22,6 +22,7 @@
 | Container Registry  | Artifactory |
 | Service Registry  | etcd |
 | Source Code Management  | Gitlab |
+| Code Review  | Gerrit |
 | CI tools             | Jenkins    |
 | Infrastructure Provisioning | Terraform    |
 | Logging | Elasticsearch, Kibana    |
@@ -41,15 +42,28 @@
 | ---------------------| ----------:|
 | Code Scanner         | Sonarqube  |
 | Static Analysis      | Coverity  |
+| Appium | Mobile, Hybrid     |
+
 
 | Dynamic application security testing (DAST)   |            |
 | ---------------------| ----------:|
 | Burp Suite  |  |
 |   Zed Attack Proxy - OWASP ZAP |       |
 |   Fiddler |       |
+|   JMeter |  Load     |
+|   Selenium | Headless      |
+| SOAP UI | Functional     |
+| LISA | Service Virtualization  |
+
 
 | misc.   |            |
 | ---------------------| ----------:|
 | Software composition analysis (SCA)  |  |
 | Interactive application security testing (IAST) |       |
 | Runtime application self-protection (RASP) |       |
+
+| E2E test framework   |            |
+| ---------------------| ----------:|
+| CodeceptJS  |  |
+| Protractor |       |
+| Cypress |       |
