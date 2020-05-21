@@ -48,7 +48,7 @@
 
   roles:
     - common
-    # - geerlingguy.pip
+    - geerlingguy.pip
     # - geerlingguy.docker
     # - geerlingguy.packer
     # - secfigo.terraform
