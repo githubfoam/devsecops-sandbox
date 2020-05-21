@@ -1,6 +1,6 @@
 ---
 - vagrant_box_host: "vg-docker-01"
-  vagrant_box: "ubuntu/bionic64"
+  vagrant_box: "bento/ubuntu-18.04"
   vbox_name: "vbox-docker-01"
   vbox_ram: 2048
   vbox_cpu: 2
@@ -14,7 +14,7 @@
   ansible_compatibility_mode: "2.0"
 
 - vagrant_box_host: "vg-docker-02"
-  vagrant_box: "ubuntu/bionic64"
+  vagrant_box: "bento/ubuntu-18.04"
   vbox_name: "vbox-docker-02"
   vbox_ram: 2048
   vbox_cpu: 2
@@ -28,7 +28,7 @@
   ansible_compatibility_mode: "2.0"
 
 - vagrant_box_host: "vg-docker-03"
-  vagrant_box: "ubuntu/bionic64"
+  vagrant_box: "bento/ubuntu-18.04"
   vbox_name: "vbox-docker-03"
   vbox_ram: 2048
   vbox_cpu: 2
@@ -42,7 +42,7 @@
   ansible_compatibility_mode: "2.0"
 
 - vagrant_box_host: "vg-docker-04"
-  vagrant_box: "ubuntu/bionic64"
+  vagrant_box: "bento/ubuntu-18.04"
   vbox_name: "vbox-docker-04"
   vbox_ram: 2048
   vbox_cpu: 2
