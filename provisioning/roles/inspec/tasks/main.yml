@@ -1,0 +1,4 @@
+---
+- name: Download and Install Inspec Deb Package
+  apt:
+    deb: https://packages.chef.io/files/stable/inspec/{{ inspec_version }}/{{ ansible_distribution | lower }}/{{ ansible_distribution_version }}/inspec_{{ inspec_version }}-1_amd64.deb

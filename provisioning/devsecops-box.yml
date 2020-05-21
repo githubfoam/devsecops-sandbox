@@ -51,6 +51,6 @@
     - geerlingguy.pip
     - geerlingguy.docker
     - geerlingguy.packer
-    # - secfigo.terraform
-    # - secfigo.inspec
+    - terraform
+    - inspec
     # - devsecops
