@@ -1,4 +1,9 @@
 # devsecops-sandbox
+
+Travis (.com) dev branch:
+[![Build Status](https://travis-ci.com/githubfoam/devsecops-sandbox.svg?branch=master)](https://travis-ci.com/githubfoam/devsecops-sandbox)  
+
+~~~~
 CI/CDelivery/CDeployment  
 platform-independent
 
@@ -70,3 +75,4 @@ platform-independent
 | CodeceptJS  |  |
 | Protractor |       |
 | Cypress |       |
+~~~~

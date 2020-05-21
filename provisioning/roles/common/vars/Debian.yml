@@ -5,3 +5,8 @@ system_packages:
   - mtr
   - tcpdump
   - net-tools
+  - curl
+  - locales
+  - apt-transport-https
+  - sshpass
+  - apparmor-utils    
