@@ -11,42 +11,6 @@ notifications:
 
 fleet_script_packer_tasks : &fleet_script_packer_tasks
       script:
-          - echo "============================================="
-          - echo "=============Packer building centos 7=============="
-          - sudo apt-get install -y cpu-checker bridge-utils dnsmasq-base ebtables libvirt-bin libvirt-dev qemu-kvm qemu-utils ruby-dev qemu
-          - sudo systemctl status libvirtd
-          - sudo libvirtd --version
-          - egrep -c '(vmx|svm)' /proc/cpuinfo #If 0 it means that your CPU doesn't support hardware virtualization.If 1 or more it does - but you still need to make sure that virtualization is enabled in the BIOS.
-          - sudo addgroup libvirtd
-          - sudo adduser  $(id -un) libvirtd #ensure that your username is added to the group libvirtd
-          - sudo adduser  $(id -un) libvirt-qemu #https://linuxconfig.org/install-and-set-up-kvm-on-ubuntu-18-04-bionic-beaver-linux
-          - sudo kvm-ok
-          # - sudo qemu-img info #Verify the disk image size and format of the virtual disk
-          - cat /usr/bin/kvm
-          # - ls -l /usr/libexec/qemu* #cannot access '/usr/libexec/qemu*': No such file or directory
-          # - /usr/libexec/qemu-kvm -h #/usr/libexec/qemu-kvm: No such file or directory
-          - sudo cat /usr/bin/kvm
-          - qemu-system-x86_64 --version
-          # - sudo virsh -c qemu:///system #Libvirtd could connect to, Welcome to virsh, the virtualization interactive terminal
-          - ls -l /usr/bin/kvm
-          - ls -l /usr/local/bin/qemu-system-x86_64
-          - which qemu-system-x86_64
-          - sudo ln -s /usr/bin/qemu-system-x86_64 /usr/bin/kvm # symlink  /usr/bin/kvm -> /usr/local/bin/qemu-system-x86_64
-          # - echo "============================================="
-          # - echo "=============building qemu=============="
-          # - sudo git clone https://github.com/qemu/qemu.git #Download the QEMU 3.0 source code
-          # - cd qemu && sudo git checkout v3.0.0
-          # - sudo git submodule init
-          # - sudo git submodule update --recursive
-          # - sudo apt-get update && sudo apt-get build-dep qemu -y #Install build dependencies
-          # - sudo ./configure --target-list=x86_64-softmmu --audio-drv-list=alsa,pa #Configure build parameters,build it for your host architecture.
-          # - sudo make #Compile the QEMU binary
-          # - sudo cp x86_64-softmmu/qemu-system-x86_64 /usr/local/bin/qemu3.0-system-x86_64 #Move the binary and BIOS files
-          # - sudo cp -r pc-bios /usr/local/share/qemu #move the BIOS files to their appropriate location
-          # - qemu3.0-system-x86_64 --version
-          # - echo "============================================="
-          # - /usr/libexec/qemu-kvm -version #/usr/libexec/qemu-kvm: No such file or directory
-          # travis worker information packer version 1.3.3
           # - echo "=================================================================================================================="
           # - echo "================================Installing Packer================================================================"
           # - sudo wget -nv https://releases.hashicorp.com/packer/${PACKER_VERSION}/packer_${PACKER_VERSION}_linux_amd64.zip
@@ -55,8 +19,8 @@ fleet_script_packer_tasks : &fleet_script_packer_tasks
           # - stat /usr/bin/packer
           # - sudo packer --version
           # - echo "=================================================================================================================="
-          - sudo packer validate -syntax-only centos/centos7.json
-          - sudo packer build centos/centos7.json
+          # - sudo packer validate -syntax-only centos/centos7.json
+          # - sudo packer build centos/centos7.json
           - echo "============================================="
 fleet_script_vagrant_win_scoop_tasks : &fleet_script_vagrant_win_scoop_tasks
       script:
