@@ -1,6 +1,6 @@
 ---
 - vagrant_box_host: "vg-docker-01"
-  vagrant_box: "bento/ubuntu-19.04"
+  vagrant_box: "bento/ubuntu-19.10"
   vbox_name: "vbox-docker-01"
   vbox_ram: 2048
   vbox_cpu: 2
