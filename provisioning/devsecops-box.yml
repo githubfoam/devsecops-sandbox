@@ -54,4 +54,4 @@
     - geerlingguy.packer
     - terraform
     - inspec
-    # - devsecops
+    - devsecops
