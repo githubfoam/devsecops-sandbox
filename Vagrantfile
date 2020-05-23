@@ -43,6 +43,20 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
            # box.vm.provision "shell", inline: <<-SHELL
            #  SHELL
 
+          box.vm.provision "chef_zero" do |chef|
+            chef.cookbooks_path = "cookbooks"
+            chef.data_bags_path = "data_bags"
+            chef.nodes_path = "nodes"
+            chef.roles_path = "roles"
+
+            # This cookbook depends on the filesystem cookbook which depends on lvm
+            chef.add_recipe "centos-as-code::default"
+            chef.add_recipe "centos-as-code::tz"
+            # chef.add_recipe "centos-as-code::install-gradle"
+            chef.add_recipe "centos-as-code::devops-apps"
+            chef.add_recipe "centos-as-code::install-jenkins"
+          end
+
         end # end of config.vm
       end  # end of servers_list.each loop
 end # end of Vagrant.configure
