@@ -1,2 +1,9 @@
 ---
 # vars file for common
+system_packages:
+  - socat
+  - traceroute
+  - mtr
+  - tcpdump
+  - net-tools
+  - apt-transport-https
