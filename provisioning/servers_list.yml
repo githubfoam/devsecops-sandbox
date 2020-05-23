@@ -8,7 +8,7 @@
   vagrant_box_ip: 192.168.18.9
   guest_port: 1234
   host_port: 1234
-  server_bootstrap: "provisioning/elk.yml"
+  server_bootstrap: "provisioning/deploy.yml"
   shell_provision: "provisioning/bootstrap.sh"
   ansible_version: "2.9.9"
   ansible_compatibility_mode: "2.0"
