@@ -1,6 +1,6 @@
 ---
 - vagrant_box_host: "vg-docker-01"
-  vagrant_box: "bento/ubuntu-18.04"
+  vagrant_box: "bento/ubuntu-19.04"
   vbox_name: "vbox-docker-01"
   vbox_ram: 2048
   vbox_cpu: 2
@@ -8,7 +8,7 @@
   vagrant_box_ip: 192.168.18.9
   guest_port: 1234
   host_port: 1234
-  server_bootstrap: "provisioning/devsecops-box.yml"
+  server_bootstrap: "provisioning/elk.yml"
   shell_provision: "provisioning/bootstrap.sh"
   ansible_version: "2.9.9"
   ansible_compatibility_mode: "2.0"
