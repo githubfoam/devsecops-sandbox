@@ -9,7 +9,7 @@
 - name: "Install system packages"
   package:
     name: '{{ system_packages }}'
-    use: '{{ ansible_pkg_mgr }}'
+    # use: '{{ ansible_pkg_mgr }}'
     state: present
 
 
